@@ -12,6 +12,7 @@
 		1AA52DD02C524EC6006F4969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52DCF2C524EC6006F4969 /* Assets.xcassets */; };
 		1AA52DD32C524EC6006F4969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA52DD22C524EC6006F4969 /* Preview Assets.xcassets */; };
 		1AA52DDA2C524EFD006F4969 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52DD92C524EFD006F4969 /* ColorView.swift */; };
+		1AA52DDC2C5258C7006F4969 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52DDB2C5258C7006F4969 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1AA52DCF2C524EC6006F4969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA52DD22C524EC6006F4969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AA52DD92C524EFD006F4969 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		1AA52DDB2C5258C7006F4969 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				1AA52DCB2C524EC4006F4969 /* SwiftUIColorizedAppApp.swift */,
 				1AA52DCD2C524EC4006F4969 /* ContentView.swift */,
+				1AA52DD92C524EFD006F4969 /* ColorView.swift */,
+				1AA52DDB2C5258C7006F4969 /* TextFieldView.swift */,
 				1AA52DCF2C524EC6006F4969 /* Assets.xcassets */,
 				1AA52DD12C524EC6006F4969 /* Preview Content */,
-				1AA52DD92C524EFD006F4969 /* ColorView.swift */,
 			);
 			path = SwiftUIColorizedApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				1AA52DDA2C524EFD006F4969 /* ColorView.swift in Sources */,
 				1AA52DCE2C524EC4006F4969 /* ContentView.swift in Sources */,
+				1AA52DDC2C5258C7006F4969 /* TextFieldView.swift in Sources */,
 				1AA52DCC2C524EC4006F4969 /* SwiftUIColorizedAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
