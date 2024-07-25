@@ -28,7 +28,7 @@ struct TextFieldView: View {
 
 #Preview {
     ZStack {
-        Color.secondary
+        Color.blue
         TextFieldView(text: .constant("143"), action: {})
     }
 }

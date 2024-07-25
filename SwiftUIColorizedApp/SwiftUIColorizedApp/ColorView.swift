@@ -26,7 +26,7 @@ struct ColorView: View {
 
 #Preview {
     ZStack {
-        Color.secondary
+        Color.blue
         ColorView(red: 100, green: 100, blue: 100)
     }
 }
